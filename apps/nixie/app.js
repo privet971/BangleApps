@@ -11,14 +11,44 @@ function relX(x) { return Math.floor(x*wX); }
 function relY(y) { return Math.floor(y*wY); }
 
 // colors
+//const col_bg = 0;
+//const col_nm =isB2 ? 1 :"#206040";
+//const col_sep = isB2 ? 6 :"#202020";
+//const col_off = isB2 ? 1 : "#202020";
+//const col_shad1 = isB2 ? 4 :"#FF0000";
+//const col_shad2 = isB2 ? 6 :"#FF6000";
+//const col_hi =isB2 ? 7 : "#FFC000";
+//const col_data = isB2 ? 6 :"#C06000";
+
+
 const col_bg = 0;
 const col_nm =isB2 ? 1 :"#206040";
 const col_sep = isB2 ? 6 :"#202020";
-const col_off = isB2 ? 1 : "#202020";
-const col_shad1 = isB2 ? 4 :"#FF0000";
-const col_shad2 = isB2 ? 6 :"#FF6000";
-const col_hi =isB2 ? 7 : "#FFC000";
-const col_data = isB2 ? 6 :"#C06000";
+
+//const col_off = isB2 ? 1 : "#202020";
+const col_off = "#202020";
+
+//const col_shad1 = isB2 ? 4 :"#FF0000";
+const col_shad1 = "#FF0000";
+
+
+//const col_shad2 = isB2 ? 6 :"#FF6000";
+const col_shad2 ="#FF6000";
+
+
+//const col_hi =isB2 ? 7 : "#FFC000";
+const col_hi = "#FFC000";
+
+//const col_data = isB2 ? 6 :"#C06000";
+const col_data = "#FFFFFF";
+
+
+
+
+
+
+
+
 
 g.setBgColor(col_bg);
 g.clear();
